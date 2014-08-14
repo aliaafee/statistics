@@ -52,7 +52,7 @@ def getTPRFPR(cutoff, operator, normal, diseased):
 	#                  Present        Absent
 	# Test  Positive    TP              FP
 	#       Negetive    FN              TN
-	#
+	
 	TP = 0.0
 	FN = 0.0
 	for value in diseased:
